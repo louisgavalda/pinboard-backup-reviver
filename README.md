@@ -2,7 +2,7 @@
 
 A **simple web GUI** for browsing your [Pinboard](https://pinboard.in/) bookmarks **locally**.
 
-Live **demo** (using my bookmarks): https://pinboard-backup-reviver.apps.louis.ga/
+[Live **demo**](https://pinboard-backup-reviver.apps.louis.ga/) (using my bookmarks)
 
 ## About
 
