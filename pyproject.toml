@@ -1,0 +1,10 @@
+[project]
+name = "pinboard-backup-reviver-git"
+version = "0.1.0"
+description = "A simple web GUI for browsing your Pinboard bookmarks"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "docopt>=0.6.2",
+    "python-fasthtml>=0.12.14",
+]
