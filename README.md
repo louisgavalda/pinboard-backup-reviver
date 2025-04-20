@@ -2,15 +2,17 @@
 
 A **simple web GUI** for browsing your [Pinboard](https://pinboard.in/) bookmarks **locally**.
 
+Live **demo** (using my bookmarks): https://pinboard-backup-reviver.apps.louis.ga/
+
 ## About
 
 **Pinboard Backup Reviver** is a tool that allows you to view and navigate through your **locally** exported **Pinboard bookmarks**.
 
 If you have a **JSON backup file** of your Pinboard bookmarks and want to access them easily without needing an internet connection or access to Pinboard, this tool is for you.
 
-Made using [Python](https://www.python.org/) and [FastHTML](https://fastht.ml/).
-
 ![](./screenshot_pinboard_backup_reviver.png "Screenshot of PBR")
+
+Made using [FastHTML](https://fastht.ml/).
 
 ## Features
 
@@ -25,7 +27,7 @@ Made using [Python](https://www.python.org/) and [FastHTML](https://fastht.ml/).
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/pinboard-backup-reviver.git pinboard-backup-reviver-git
+git clone https://github.com/louisgavalda/pinboard-backup-reviver.git pinboard-backup-reviver-git
 cd pinboard-backup-reviver-git
 
 # Run the application with uv; you simply need to specify the path to a JSON Pinboard backup
@@ -58,7 +60,7 @@ This backup contains all your bookmarks including titles, URLs, descriptions, ta
 - [Pinboard](https://pinboard.in) for their excellent bookmarking service.
 - [FastHTML](https://fastht.ml/) contributors.
 - [HTMX](https://htmx.org/) creator and contributors.
-- 
+
 ## License
 
 This project is licensed under the MIT License; see the [LICENSE](LICENSE) file.
