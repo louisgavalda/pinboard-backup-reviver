@@ -18,7 +18,7 @@ Made using [FastHTML](https://fastht.ml/).
 
 - **Offline** browsing of your Pinboard bookmarks.
 - Simple and intuitive **web interface** (quite similar to Pinboard's one).
-- **Filter** by title, description, domains, tags.
+- **Instant search** and **filter** by title, description, domains, tags.
 - Ability to exclude tags or domains from the results.
 - Option for including/excluding your private bookmarks (if you want to make Pinboard Backup Reviver accesible to others).
 - Single file; easy to tweak.
@@ -39,21 +39,27 @@ Then open your browser at: http://localhost:5000
 
 The application loads your JSON bookmarks file and can optionally include your private bookmarks (hidden by default).
 See the example below for sample usage:
-`pinboard-backup-reviver-git ~/pinboard-backup.json --include-private`
+```bash
+pinboard-backup-reviver-git ~/pinboard-backup.json --include-private
+```
 
 ## Getting your Pinboard bookmarks
 
-To retrieve your Pinboard bookmarks as a JSON file:
+To **retrieve your Pinboard bookmarks** as a JSON file:
 
 1. Log in to your [Pinboard account](https://pinboard.in).
 2. Go to the settings page by clicking on the "settings" link in the top-right corner.
 3. Click on the "backup" tab.
 4. Under "Export", click on "JSON" to download all your bookmarks as a JSON file.
-5. Save this file to your computer - this is the file you'll use with Pinboard Backup Reviver.
+5. Save this file to your computer - this is the file you'll use with **Pinboard Backup Reviver**.
 
 ![](./screenshot_pinboard.png "Screenshot of PBR")
 
 This backup contains all your bookmarks including titles, URLs, descriptions, tags, and timestamps.
+
+## See also
+
+- [Automatic Pinboard backups](https://alexwlchan.net/2013/pinboard-backups/) + [backup-pinboard](https://github.com/alexwlchan/backup-pinboard) 
 
 ## Acknowledgments
 
