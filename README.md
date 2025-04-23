@@ -31,7 +31,7 @@ git clone https://github.com/louisgavalda/pinboard-backup-reviver.git pinboard-b
 cd pinboard-backup-reviver-git
 
 # Run the application with uv; you simply need to specify the path to a JSON Pinboard backup
-uv run main.py ~/sync/save/backups/PINBOARD_EXPORT_FILE.json
+uv run main.py /path/to/your/PINBOARD_EXPORT_FILE.json
 ```
 
 The application automatically starts a local web server.
