@@ -1,10 +1,12 @@
-from fasthtml.common import *
+from collections import defaultdict
+from datetime import datetime
 import json
 import sys
-from collections import defaultdict
 from urllib.parse import urlparse, parse_qs
-from datetime import datetime
+
 from docopt import docopt
+from fasthtml.common import *
+
 
 # Définition de l'aide de docopt
 __doc__ = """Visualiseur de marque-pages Pinboard
